@@ -1,0 +1,33 @@
+
+
+@media only screen and (min-width: 700px){
+
+	.app-tab-nav{
+
+		width: 60px;
+		height: 66px;
+
+	}
+
+	.app-nav-table{
+		position: relative;
+		left: 276px;
+		border: .05em solid lightgrey;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+	.app-navi-tab{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	.nav-header{
+		width: 180px;
+	}
+
+	.compose-btn{
+		width: 70%;
+	}
+
+}

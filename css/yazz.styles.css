@@ -1,0 +1,2477 @@
+
+
+.app-block-post{
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .175);
+   box-shadow: 0 1px 3px rgba(0, 0, 0, .175);
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.reaction-btns-react{
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+    padding-left: 12px;
+    padding-top: 7px;
+    border-radius: 20px;
+}
+
+.three-btns{
+  padding-top: 15px;
+}
+
+.reaction-btns-shares{
+  padding-top: 7px;
+  padding-left: 7px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+}
+
+.video-video-icon{
+  position: relative;
+  top: 8px;
+  left: 5px;
+  height: 0;
+
+}
+.options-pop-header{
+
+  padding-bottom: 10px;
+  border-bottom: .04em solid rgba(211, 211, 211, .5);
+
+}
+
+a > .app-real-icon,
+a > span > .app-real-icon{
+  position: relative;
+  padding: 0;
+  border: none;
+  background: none;
+  transition: color 0.2s;
+}
+
+a > .app-real-icon:active,
+a > span > .app-real-icon:active{
+  -webkit-animation: anim-effect-boris 0.2s;
+  animation: anim-effect-boris 0.2s;
+}
+
+
+@keyframes anim-effect-boris {
+  0% {
+    transform: scale(0.3, 0.3);
+  }
+  25%, 50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2, 1.2);
+  }
+}
+
+@keyframes pop-trans{
+
+  0% {
+    transform: scale(0.3, 0.3); 
+  }
+
+  25%{
+    opacity: 0.25
+  }
+
+  50% {
+    opacity: 0.50;
+  }
+
+  100%{
+    opacity: 1
+    transform: scale(1.2, 1.2);
+  }
+
+}
+    .app-circle-img{
+      width: 90px;
+      height: 90px;
+      background-color: #FBFCFC;
+      border-radius: 50px;
+    }
+
+    .app-edit-cover{
+      height: 120px;
+      width: 100%;
+      background-color: #FBFCFC;
+    }
+
+    .edit-side-info{
+      width: 120px;
+      height: 110px;
+      background-color: transparent;
+      border-radius: 5px;
+    }
+
+    /*
+
+        For Mobile Phones
+
+     */
+
+     @media only screen and (max-width: 700px){
+
+      .forms-viewport,
+      .app-edit-main-body{
+
+        position: fixed; 
+        z-index: 9998 !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto;
+        background-color: #fff;
+
+       }
+
+       .main-input-wrapper,
+       .edit-input-wrapper{
+
+        -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        background-color: #FBFCFC;
+        width: 100%;
+        margin-right: 10%; 
+        padding: 1%;
+        border-radius: 3px;
+
+       }
+
+       .register-progress-wrapper{
+
+        padding-left: 4%;
+
+       }
+
+       .button-wrapper{
+
+        margin:auto;
+        width: 60%;
+
+       }
+
+     }
+
+     /*
+
+       For Desktops AND Laptops
+
+     */
+
+     @media only screen and (min-width: 700px){
+
+       /*#body{
+        background-color: #fff;
+       }*/
+
+       .media-outer{
+
+        padding-left: 2%;
+        padding-right: 2%;
+
+       }
+
+       .forms-viewport,
+       .app-edit-main-body{
+
+          background-color: #fff;
+          border-radius: 5px;
+          width : 100%;
+          height : 500px;
+          -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+
+       }
+
+       .app-edit-main-body{
+        overflow-y: auto;
+       }
+
+       .app-edit-main-body{
+        height: auto;
+       }
+
+       .main-input-wrapper,
+       .edit-input-wrapper{
+
+        -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        background-color: #FBFCFC;
+        width: 100%;
+        margin-right: 10%;
+        padding: 1%;
+
+       }
+
+       .register-progress-wrapper{
+
+        padding-left: 4%;
+
+       }
+
+       .button-wrapper{
+
+        margin:auto;
+        width: 60%;
+
+       }
+
+     }
+
+     
+
+     .app-input-login{
+
+      width: 100%;
+      height: 20px;
+      border: none;
+      font-size: 10pt;
+      color: #63717f;
+      outline : 0;
+      background-color: #FBFCFC;
+
+     } 
+
+.feed-comment-text-wrapper{
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+.img-button-send{
+  margin: 2%;
+}
+.hash-btn{
+  padding-left: 5%;
+}
+.app-input-field{
+  outline: 0;
+  border: .05em solid lightgrey;
+}
+
+.input-group-addon{
+  background-color: transparent;
+}
+
+.app-table{
+  width: 100%;
+}
+.app-full-user-info-body,
+.icon-tr,
+.count-tr{
+  border: 0;
+}
+.app-notif-item:hover{
+  background-color: #f5f5f5;
+}
+
+.app-render-cover{
+
+    position: fixed; 
+    z-index: 9999 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+
+}
+
+.cover-logo-wrap{
+
+  margin-top: 20%;
+
+}
+/*.cover-change-btn{
+  background-color: transparent;
+}*/
+
+/* For Screens Of PCs and Laptops */
+
+.app-deleted-post{
+  width : 90%;
+  margin: auto;
+  border: .05em solid rgba(211, 211, 211, .4);
+  border-radius: 5px;
+  padding: 4px;
+}
+.app-shared-post{
+    width : 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: .5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+  }
+
+  .shared-post-header{
+    padding: .5%;
+    padding-left: 2%; 
+  }
+  .app-convo-body{
+    padding: 1%;
+  }
+  
+@media only screen and (min-width: 700px){
+
+  .mentions-main-wrapper{
+    height: 0;
+    width: 100%;
+    display: none;
+  }
+  .app-popout-mention-wrapper{
+
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 210px;
+    width: 98%;
+    height: auto;
+    max-height: 200px;
+    overflow-y: auto;
+    /*box-shadow: 2px 2px 2px 4px rgba(211, 211, 211, .4);*/
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 9999 !important;
+    border: .05em solid lightgrey;
+
+  }
+
+  .user-row-wrapper{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+  }
+
+  .app-modal-lg-btn{
+    position: relative;
+    margin: 1%;
+  }
+
+  .app-edit-profile-wrapper{
+
+
+    display: none;
+    position: fixed; 
+    z-index: 9998 !important; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.8);
+
+  }
+
+  .login-screen-wrapper{
+    display: none;
+  }
+
+  .feed-comment-body{
+    width: 100%
+    height: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    /*border: .05em solid rgba(211, 211, 211, .2);*/
+  }
+
+  .app-render-cover{
+
+    position: fixed; 
+    z-index: 9999 !important;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+
+}
+
+  .app-input-wrapper-inner{
+    border: .05em solid lightgrey;
+    height: 48px;
+    background-color: #FBFCFC;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    padding-top: 1px;
+  }
+
+  .app-user-info-nav{
+    padding: 1px;
+    padding-right: 2%;
+  }
+  .app-badge{
+    display: inline-block;
+    padding: 5px;
+    line-height: .5;
+    color: #fff;
+    font-size: 08pt;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #5bc0de;
+    border-radius: 1px;
+  }
+  .icon-badge{
+    margin-top: -12px;
+  }
+  .app-badge:empty{
+    display: none;
+  }
+  .dynamic-options-wrapper{
+    width: 220px;
+    border: .05em solid lightgrey;
+    padding: 1%;
+  }
+
+  .home-login-wrapper,
+  .home-user-wrapper,
+  .home-explore-wrapper,
+  .edit-wrapper{
+    padding-top: 3px;
+    background-color: #fff;
+    height: auto;
+    border-radius: 3.5px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+  }
+
+  .app-convo-screen-wrapper{
+
+    position: fixed; 
+    z-index: 9998 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 0; 
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+
+    }
+
+  .app-convo-wrapper{
+    z-index: 9999 !important;
+    margin: auto;
+    width: 5%;
+    height: 5%;
+    background-color: transparent;
+    overflow-y: scroll;
+    border-radius: 6px;
+    border: .05em solid lightgrey;
+  }
+
+  .app-grid-post{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .app-grid-wrapper{
+
+    width : 185px;
+    height: 186px;
+    overflow: hidden;
+    overflow-x: hidden;
+
+  }
+
+  .app-grid-wrapper > .media-anchor > .app-image-wrapper > img{
+
+    background-color: #111;
+    width: auto;
+    height: auto;
+    max-height: 186px;
+    min-height: 186px;
+    margin: auto;
+  }
+
+  .user-theme-music{
+    padding-top: 2%;
+  }
+  .user-cover-image{
+    padding: 1%;
+  }
+  .app-left-bar{
+    position: fixed;
+    left : 1%;
+    width: 23%;
+    height: auto;
+    margin-left: 6px;
+  }
+  .app-block-post-explore{
+    width: 32%;
+  }
+
+  .app-comment-header-fixed{
+    background-color: transparent;
+  }
+
+  .comment-input-text,
+  .chats-input-text,
+  .share-compose-box{
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    outline : 0;
+  }
+  .app-write-comment-viewport{
+    padding: .4%;
+    width: 32%;
+    position: fixed;
+    right: 0;
+    left: 66.5%;
+    z-index: 9999 !important;
+  }
+  .app-mobile-share{
+    display: none;
+  }
+
+  .profile-follow-wrapper{
+    width: 277px;
+    overflow-x: hidden;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+  }
+
+  .app-user-images-body,
+  .app-profile-img{
+    width: 100%;
+    height: 250px;
+  }
+  .compose-box{
+    width: 100%;
+    height: 100px;
+    font-size: 10pt;
+    float: left;
+    padding-left: 4px;
+    /*-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;*/
+    border-radius: 3px;
+  }
+  .app-empty-posts{
+    font-size: 250pt;
+    text-shadow: 8px 8px lightgrey;
+    color: #111;
+  }
+  .media-text{
+    width: 30px;
+    height: auto;
+    padding: .5px;
+    background-color: #111;
+    color: #fff;
+    font-weight: 550;
+    font-size: 9pt;
+  }
+   .audio-media-right{
+    width: 15%;
+  }
+  .audio-progress-bar{
+    position: relative;
+    top: 16px;
+    height: 4px;
+  }
+   .audio-icon-btn{
+    font-size: 22pt;
+   }
+   .grid-post-wrapper{
+    position:absolute;
+    width: 29.4%;
+    height: 100px;
+    padding-bottom: 1%;
+  }
+  .app-nav{
+  	width: 100%;
+  	height: 65px;
+  	background-color: transparent;
+    padding-top: 1%;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    border-bottom : .05em solid rgba(211, 211, 211, .5);
+
+  }
+  .app-post-wrapper{
+    border: 0.04em solid lightgrey;
+    padding: 1px;
+   }
+  .app-nav-table{
+  	width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  .app-nav-tab{
+    width: 20%;
+  }
+  .app-search-table{
+  	width: 100%;
+    background-color: #FBFCFC;
+  }
+  .app-search-icon{
+  	padding: 6px;
+  }
+
+  .app-drawer-screen-wrapper{
+    position: fixed; 
+    z-index: 9988; 
+    left: 0;
+    top: 0;
+    width: 0; 
+    height: 100%; 
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  .app-drawer-wrap{
+    width: 0;
+    height: 100%;
+    background: #fff;
+    border-right: .03em solid lightgrey;
+  }
+  .app-drawer-nav{
+    width: 0;
+    background-color: transparent;
+    height: 65px;
+    border-right: .03em solid lightgrey;
+  }
+  .app-edit-profile-wrapper{
+
+    display: none;
+    position: fixed; 
+    z-index: 9998 !important; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+
+  }
+  .app-block-popout,
+  .app-block-popout-options{
+  	display: none; 
+    position: fixed; 
+    z-index: 9999 !important; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.6);
+
+
+  }
+  .app-block-popout-content{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    border-radius: 0;
+    padding-right: 1%;
+    -webkit-animation : pop-trans 0.2s;
+    animation: pop-trans 0.2s
+  }
+  .options-pop{
+    background-color: transparent;
+    border: 0.05em solid lightgrey;
+    position: fixed;
+    top: 30%;
+    left: 32.5%;
+    width: 25%;
+    border-radius: 5px;
+    z-index: 9999 !important;
+    padding: 1px;
+    -webkit-animation : pop-trans 0.2s;
+    animation: pop-trans 0.2s
+  }
+  .modal-comment-body{
+    width: 70%;
+    height: 580px;
+    position: fixed;
+    top: 2%;
+    left: 20%;
+  }
+
+  /*.app-block-popout-content,*/
+  .app-convo-wrapper::-webkit-scrollbar {
+    width: 0.4em;
+  }
+ 
+  /*.app-block-popout-content,*/
+  .app-convo-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  }
+ 
+  /*.app-block-popout-content,*/
+  .app-convo-wrapper::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+  .comments-viewport::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .comments-viewport::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  }
+
+  .comments-viewport::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+  .app-media-body-main{
+    padding: 5px;
+    border-bottom: .05em solid rgba(211, 211, 211, .4);
+  }
+
+  .app-media-body{
+  	width :100%;
+  	height: auto;
+    background-color: transparent;
+  }
+  .app-profile-nav{
+    
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    z-index: 99;
+    border-radius: 5px;
+  }
+  .app-user-info-body-main{
+    /*border: 0.05em solid lightgrey;
+    */
+    padding-left: 2%;
+    position: relative;
+    left: 3.5%;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    /*border-radius: 1%;
+    box-shadow: .4px .4px .4px .4px#A2A2A2;*/
+    }
+
+  .app-user-info-body,
+  .user-hashes-body{
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+  }
+
+  .app-modal-nav-top{
+    background-color: transparent;
+    border-bottom: 0.05em solid #1DA1F2;
+    position: fixed;
+    width : 39.5%;
+  }
+
+  .app-input-table{
+    width: 100%;
+    height: 40px;
+  }
+  
+
+  .app-compose-body{
+    background-color: transparent;
+    padding: .2%;
+    border-radius: 3px;
+  }
+  
+  .suggested-body,{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 1px;
+    border: 0.03em solid lightgrey;
+  }
+  .user-right-bar-2{
+
+  }
+  .app-you-may-know,
+  .user-right-bar{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    /*border-left: 0.03em solid lightgrey;
+    border-right: 0.03em solid lightgrey;
+    border-top: 0.03em solid lightgrey;
+    box-shadow: .2px .2px .2px .2px #A2A2A2;*/
+    padding: .2%;
+    border-radius: 3px;
+  }
+  .suggested-header{
+    width: 100%;
+  }
+  .app-suggest-table{
+    height: auto;
+    width: 100%;
+  }
+  .app-side-bar{
+    width: 32%;
+    height: auto;
+    position: fixed;
+    right: 10px;
+  }
+  .app-search-dropdown{
+    width: 32.55%;
+    height: auto;
+    position: fixed;
+    top: 9%;
+    left: 33.5%;
+    background-color: transparent;
+    border: 0.05em solid lightgrey;
+    z-index: 9998 !important;
+    display: none;
+    padding: 5px;
+    border-radius: 4px;
+    max-height: 500px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+  .compose-info-show{
+    display: none;
+  }
+  .app-video-body,
+  .app-image-body,
+  .app-audio-body{
+    height: auto;
+    width: 100%;
+  }
+  /*video{
+    max-height: 550px;
+    min-height: 200px;
+    max-width: 99.9%;
+  }*/
+  .compose-btn{
+    width: 78%;
+  }
+
+   /* NEW STYLES!! */
+
+   .app-full-post-wrapper{
+
+     padding-bottom: .1%;
+     padding-left: .1%;
+     min-height: 480px;
+
+   }
+   .app-post-owner-header{
+
+     padding-bottom: 1%;
+
+   }
+   .post-viewport > .app-full-post-wrapper > .media-anchor > .app-image-body > img{
+    
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: auto;
+
+  }
+   .post-viewport-wrapper-lg{
+    height:auto;
+  }
+  .post-viewport{
+    position: fixed;
+    width: 66.5%;
+    height: 100%;
+    border-right: 0.03em solid lightgrey;
+    background-color: transparent;
+  }
+  .comments-viewport{
+    width: 100%;
+    min-height: 600px;
+    max-height: auto;
+   }
+
+   .comments-viewport-main{
+    background-color: white;
+   }
+
+   .app-post-text{
+
+    font-weight: 450;
+    font-size: 09pt;
+
+  }
+
+  .app-notification-dropdown{
+    width: 31.62%;
+    height: auto;
+    position: fixed;
+    top: 11%;
+    right: 10%;
+    background-color: transparent;
+    border: 0.05em solid lightgrey;
+    z-index: 9999 !important;
+    display: none;
+    box-shadow: .2px .2px .2px .2px #A2A2A2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    max-height: 580px;
+    overflow-y: scroll;
+  }
+  .app-message-dropdown{
+    width: 31.62%;
+    height: auto;
+    position: fixed;
+    top: 11%;
+    right: 15%;
+    background-color: transparent;
+    border: 0.05em solid lightgrey;
+    z-index: 9999 !important;
+    display: none;
+    box-shadow: .2px .2px .2px .2px #A2A2A2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    max-height: 580px;
+  }
+  .app-search-dropdown-xs{
+    display: none;
+  }
+
+  .app-explore-grid-item{
+    width: 30%;
+    height: auto;
+  }
+  .main-flick-body{
+    width: 70%;
+  }
+  .mobile-share-control-btn{
+    width: 48%;
+  }
+
+  .app-toast{
+    width: 23%;
+    position: fixed;
+    bottom: 30px;
+    left: 38%;
+    background-color: #5bc0de;
+    z-index: 9999 !important;
+    height: auto;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    border-radius: 2px;
+    display: none;
+    -webkit-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+  }
+
+/*  .app-fade{
+    -webkit-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+  }*/
+
+  .toast-text{
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+  
+
+
+  /*  END OF NEW STYLES*/
+
+  @-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+  .animate-hearts-body{
+    width: 6%;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    background-color: transparent;
+    z-index: 9999 !important;
+    height: 0px;
+    display: none;
+    -webkit-animation: wrapperfadein 1.5s;
+    animation: wrapperfadein 1.5s;
+  }
+
+
+  @-webkit-keyframes wrapperfadein {
+    from {bottom: 15px; opacity: 0;} 
+    to {bottom: 100px; opacity: 1;}
+  }
+
+  @keyframes wrapperfadein {
+    from {bottom: 15px; opacity: 0;}
+    to {bottom: 100px; opacity: 1;}
+  }
+
+} /* End */
+
+.notification-dropdown-header,
+.chats-dropdown-header,
+.app-search-header,
+.mobile-share-header{
+  padding: 2%;
+  background-color: transparent;
+}
+
+/* For Screens Of Mobile Phones */
+@media only screen and (max-width: 700px){
+  /* NEW STYLES */
+  .action-profile-nav{
+    border-bottom: .04em solid rgba(211, 211, 211, .175);
+  }
+
+  .share-choose-btn{
+    border-radius: 3px;
+    border-color: lightgrey;
+  }
+
+  .share-audio-record-timer{
+    padding: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .175);
+  }
+  .record-wrapper{
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .175);
+    border-radius: 50px;
+    padding: 5px;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .app-make-post-wrapper{
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .app-notif-item{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .app-notif-item:hover{
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+
+  .com-text{
+    position: relative;
+    top: -7px;
+
+  }
+  .app-network-status-wrapper{
+  width: 100%;
+  height: 20px;
+  background-color: red;
+
+  }
+  .net-text{
+    color: #fff;
+  }
+  .mentions-main-wrapper{
+    height: 0;
+    width: 100%;
+    display: none;
+  }
+  .app-popout-mention-wrapper{
+
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 210px;
+    width: 98%;
+    height: auto;
+    max-height: 200px;
+    overflow-y: auto;
+    /*box-shadow: 2px 2px 2px 4px rgba(211, 211, 211, .4);*/
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 9999 !important;
+    border: .05em solid lightgrey;
+
+  }
+
+  .icon-btn-wrapper{
+
+    margin-top: 5px;
+    padding: 0%;
+    width: 63px;
+    height: 28px;
+    background: rgba(0, 0, 0, .5);
+
+  }
+
+  .app-search-headers{
+
+    border-bottom: .05em solid rgba(211, 211, 211, .4);
+    border-top: .05em solid rgba(211, 211, 211, .4);
+
+  }
+
+  .user-row-wrapper{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    border-bottom: .05em solid rgba(211, 211, 211, .4);
+  }
+
+  .trending-search-dropdown{
+    width: 98%;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    border: 0.05em solid lightgrey;
+    z-index: 9998 !important;
+    display: none;
+    padding: 5px;
+    border-radius: 4px;
+    max-height: 500px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  }
+
+  .app-grid-post{
+    width: 119px;
+    height: 119px;
+    overflow: hidden;
+  }
+   
+   .app-edit-profile-wrapper{
+
+    display: none;
+    position: fixed; 
+    z-index: 9998 !important; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    overflow-y:auto;
+
+   }
+
+  .form-viewport{
+
+    position: fixed; 
+    z-index: 9998 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: #fff;
+
+  }
+
+  .login-screen-wrapper{
+
+    display: none;
+    position: fixed; 
+    z-index: 9998 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+
+  }
+
+  .login-screen-wrap-body{
+
+    height: 20%;
+    background-color: #fff;
+    width: 100%;
+
+  }
+
+  .feed-comment-body{
+    width: 100%
+    height: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+        box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    /*border: .05em solid rgba(211, 211, 211, .2);*/
+  }
+
+  .app-render-cover{
+
+    position: fixed; 
+    z-index: 9999 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+
+  }
+
+  .cover-logo-wrap{
+
+    margin-top: 50%;
+
+  }
+
+  .app-badge{
+    display: inline-block;
+    padding: 5px;
+    line-height: .5;
+    color: #fff;
+    font-size: 08pt;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #5bc0de;
+    border-radius: 1px;
+  }
+  .icon-badge{
+    margin-top: -12px;
+  }
+  .app-badge:empty{
+    display: none;
+  }
+  .dynamic-options-wrapper{
+
+    width: 200px;
+    z-index: 9999 !important;
+    padding: 1%;
+    border: .05em solid lightgrey;
+
+  }
+  .chats-input-wrapper{
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    height: 50px;
+  }
+
+  .home-login-wrapper{
+    padding-top: 2px;
+    border: .05em solid lightgrey;
+  }
+  .home-user-wrapper-header,
+  .home-explore-wrapper,
+  .edit-wrapper{
+    background-color: transparent;
+    height: auto;
+  }
+
+  .app-grid-wrapper > .media-anchor > .app-image-wrapper > img{
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 119px;
+    height: auto;
+  }
+
+  .app-grid-wrapper{
+    width : 118px;
+    height: 119px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  /*.post-option-item{
+    margin-left: 8%;
+  }*/
+  
+
+  .app-convo-screen-wrapper{
+
+    position: fixed; 
+    z-index: 9998 !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 0; 
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+
+    }
+
+  .app-convo-wrapper{
+    z-index: 9998 !important;
+    margin: auto;
+    width: 5%;
+    height: 5%;
+    background-color: transparent;
+    overflow-y: auto;
+
+  }
+
+  .app-drawer-screen-wrapper{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 9996 !important;
+    overflow-y: scroll;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  .app-drawer-wrap{
+    width: 0;
+    height: 100%;
+    background: #fff;
+    border-right: .03em solid lightgrey;
+    overflow-y: scroll;
+  }
+  .app-drawer-nav{
+    width: 0;
+    background-color: transparent;
+    border-right: .03em solid lightgrey;
+    height: 30px;
+  }
+
+  .app-left-bar,
+  .user-right-bar{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 4%;
+    padding-top: 6%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9000 !important;
+    display: none;
+  }
+
+  .main-flick-body{
+    width: 100%;
+  }
+
+  .mobile-share-control{
+    border-top: 0.03em solid lightgrey;
+    padding-top: 1%;
+  }
+  .mobile-share-control-btn,
+  .login-screen-btn{
+    width: 48%;
+  }
+  .mobile-share-control-btn.yes{
+    width: 66%;
+  }
+  .mobile-share-control-btn.no{
+    width: 30%;
+  }
+
+  .profile-follow-wrapper{
+    width: 50%;
+  }
+  .home-top-nav-xs,
+  .app-user-info-nav{
+    height: 50px;
+    background-color: transparent;
+  }
+  .share-btn{
+    position: relative;
+    right: 12px;
+  }
+
+  .app-write-comment-viewport{
+    width: 100%;
+    height: 46px;
+    background-color: transparent;
+    padding-top: 2px;
+    padding-bottom: 2%; 
+
+  }
+  .comment-input-text,
+  .chats-input-text,
+  .upload-text,
+  .share-compose-box{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    outline : 0;
+    background-color: transparent;
+  }
+  
+
+  .app-post-text{
+
+    font-weight: 400;
+    font-size: 09pt;
+
+  }
+
+  .app-notification-dropdown,
+  .app-message-dropdown,
+  .app-search-dropdown-xs,
+  .app-mobile-share{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 9000 !important;
+    display: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow-y: scroll;
+  }
+  .notifications-viewport{
+    overflow-y: scroll;
+  }
+
+
+  /* END OF NEW STYLES */
+  .app-user-images-body,
+  .app-profile-img{
+    width: 100%;
+    height: 250px;
+  }
+  .compose-box{
+    width: 95%;
+    height: 360px;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+  }
+  .header-text-tab{
+    text-align: center;
+  }
+  .app-suggest-table{
+    width: 100%;
+    height: auto;
+  }
+  .compose-btn{
+    width: 72.3%
+  }
+  
+  .app-compose-body{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 0;
+    z-index: 9991 !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .app-trending{
+    background-color: transparent;
+  }
+  .app-empty-posts{
+    font-size: 140pt;
+    text-shadow: 8px 8px #111;
+  }
+  .media-text{
+    width: 9%;
+    height: auto;
+    padding: .5px;
+    background-color: #111;
+    color: #fff;
+    font-weight: 550;
+    font-size: 8pt;
+  }
+   .audio-icon-btn{
+    font-size: 22pt;
+   }
+   .audio-media-right{
+    width: 28%;
+  }
+  .audio-progress-bar{
+    position: relative;
+    top: 15px;
+    height: 4px;
+  }
+
+  .app-post-wrapper{
+    border-bottom: 0.04em solid lightgrey;
+    padding: 2px;
+  }
+  .grid-post-wrapper{
+    position:absolute;
+    width: 29%;
+    height: 70px;
+    padding-bottom: 1%;
+  }
+   .app-nav{
+  	width: 100%;
+  	height: 45px;
+  	background-color: transparent;
+    border-top: 0.05em solid rgba(211, 211, 211, .2);
+  }
+
+  .app-nav-table{
+  	width: 100%;
+    height: 45px;
+  }
+
+  .app-nav-tab{
+  	
+  }
+  .app-block-popout,
+  .app-block-popout-options{
+  	display: none; 
+    position: fixed; 
+    z-index: 9999 !important; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  .app-block-popout-content{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top : 0;
+    bottom: 0;
+    z-index: 9999 !important;
+    overflow-y: auto;
+    -webkit-animation : pop-trans 0.3s;
+    animation: pop-trans 0.3s
+  }
+
+  @keyframes pop-trans-xs{
+
+    0% {
+      transform: scaleY(0.5); 
+    }
+
+    25%{
+      opacity: 0.25
+    }
+
+    50% {
+      opacity: 0.50;
+    }
+
+    100%{
+      opacity: 1
+      transform: scaleY(1);
+    }
+
+  }
+  .options-pop{
+    background-color: transparent;
+    border-top: 0.05em solid lightgrey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+    animation: pop-trans-xs 0.3s;
+    -webkit-animation : pop-trans-xs 0.3s;
+  }
+
+  .modal-comment-body{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    top: 50%;
+    z-index: 9998 !important;
+    overflow-y: auto;
+  }
+
+  .post-media-body{
+    padding-top: 10%;
+  }
+
+  .app-media-body-main{
+    border-bottom: .04em solid rgba(211, 211, 211, .4);
+  }
+  .app-media-body,
+  .app-viewport-top{
+  	width :100%;
+  	height: 100%;
+    object-fit: contain;
+    background-color: transparent;
+  }
+  .app-user-info-body-main,
+  .app-user-info-body{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+  .app-profile-nav{
+    width: 100%;
+    background-color: transparent;
+  }
+  .app-user-info-nav{
+    background-color: transparent;
+  }
+  .app-modal-nav-top{
+    background-color: transparent;
+    border-bottom: 0.05em solid lightgrey;
+    position: fixed;
+    width : 99%;
+  }
+  .app-input-table{
+    width: 100%;
+    height: 45px;
+  }
+  .icon-breath{
+  }
+  .app-input-wrapper-inner{
+    border: .05em solid lightgrey;
+    height: 42px;
+    background-color: #FBFCFC;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .175);
+    z-index: 9999 !important;
+  }
+  .app-input-wrapper{
+    width: 99%;
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    background-color: transparent;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    z-index: 9999 !important
+  }
+  .app-toast{
+    width: 90%;
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+    background-color: #5bc0de;
+    z-index: 9999 !important;
+    height: auto;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    display: none;
+    border-radius: 15px;
+    box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+  }
+  .toast-text{
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+
+  @-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 60px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 60px; opacity: 1;}
+}
+
+.animate-hearts-body{
+    width: 6%;
+    position: relative;
+    bottom: 10px;
+    left: 12px;
+    background-color: transparent;
+    z-index: 9999 !important;
+    height: 0px;
+    display: none;
+    -webkit-animation: wrapperfadein 1.5s;
+    animation: wrapperfadein 1.5s;
+  }
+
+
+@-webkit-keyframes wrapperfadein {
+  from {bottom: 15px; opacity: 0;} 
+  to {bottom: 100px; opacity: 1;}
+}
+
+@keyframes wrapperfadein {
+  from {bottom: 15px; opacity: 0;}
+  to {bottom: 100px; opacity: 1;}
+}
+
+body{
+  overflow-x: hidden;
+}
+
+} /* End */
+
+/* App Animation Section*/
+
+  
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+   }
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+   }
+
+ /* End Of App Animation Section */
+
+/*
+  Universal Styles
+  Styles That Stay the Same Whether Its Mobile Or PC
+*/
+
+   #main,
+   #view,
+   .row{
+    overflow-x: hidden;
+   }
+   body{
+    background-color: #FBFCFC;
+    overflow-x: hidden;
+   }
+   .overrall{
+    overflow-x: hidden;
+   }
+   .app-post-wrapper,
+   .app-post-body-wrap,
+   .app-reaction-body{
+    background-color: transparent;
+   }
+   
+   .app-loader {
+    border: 5px solid #1DA1F2;
+    border-radius: 50%;
+    border-top: 5px solid snow;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+   }
+    
+   label{
+    cursor: pointer;
+   }
+  a,
+  a:hover{
+  	cursor: pointer;
+  	color: #111;
+  	text-decoration: none;
+    outline: 0;
+  }
+  a:active{
+  	color: #111;
+  	text-decoration: none;
+    outline: 0;
+  }
+  .app-post-body-wrap{
+  	width: 100%;
+  	height: auto;
+  	
+  }
+  .app-reaction-body{
+    padding: 1px;
+  }
+  .app-reaction-table,
+  .app-header-table{
+  	width: 100%;
+  	height: auto;
+  }
+  
+  .app-media-notifier{
+    border: 0.02em solid lightgrey;
+    width: 100%;
+    height: auto;
+  }
+
+  .app-profile-nav-table{
+    background-color: transparent;
+  }
+  .app-modal-nav-table,
+  .app-profile-nav-table,
+  .app-user-info-nav-table,
+  .app-notif-table,
+  .xs-search,
+  .app-nav-header-table,
+  .comment-body-table{
+  	width: 100%;
+  	height: 45px;
+  }
+  .app-modal-nav-table,
+  .app-modal-nav-top{
+    z-index: 9997;
+    background-color: transparent;
+  }
+
+  .like-react-tab,
+  .comment-react-tab{
+  	 width: 15%;
+  	 height: 35px;
+     padding: 1%;
+  }
+  .app-react-icon{
+    color: #8c8c89;
+  }
+  .img-tab{
+  	width: 10%;
+  	height: 35px;
+  }
+  .name-tab{
+  	width: 60%;
+  	height: 35px
+  }
+  .options-tab,
+  .app-modal-navback-tab,
+  .app-modal-nav-options,
+  .icon-tab,
+  .list-tab,
+  .grid-tab,
+  .saved-tab{
+  	width: 20%;
+  }
+  .back-tab,
+  .refresh-tab,
+  .load-more-tab{
+    width: 10%;
+  }
+  .app-media{
+  	width: 100%;
+  }
+  .app-react-icon{
+  	padding-right: 6px;
+  }
+  .app-icon-count{
+  	font-size: 10pt;
+  	color: #111;
+  	padding-bottom: 2px
+  }
+  .fire{
+    color: orange;
+  }
+  
+  .feed-comment-body > .comment-text{
+    margin: 2.5%;
+  }
+  .app-comment-body{
+    margin-left: 3%;
+    margin-right: 5%; 
+    width: 95%;
+  }
+
+  .text-tab,
+  .notif-text-tab{
+    width: 80%;
+    padding: 0.5%;
+  }
+  .app-comment-table{
+    width: 100%;
+    height: 30px;
+  }
+  .date-text{
+    font-size: 08pt;
+    color: #1DA1F2;
+  }
+  .user-nav-btn{
+    font-size: 16pt
+  }
+
+  .user-name-tab{
+    width: 40%;
+  }
+  .app-user-info-nav{
+   /* border-bottom: 0.02em solid rgba(211, 211, 211, .2);*/
+    background-color: transparent;
+  }
+  .app-user-images-body{
+    width: 100%;
+    height: 200px;
+  }
+  .app-full-user-info-table,
+  .app-full-user-info-body,
+  .app-follow-table,
+  .app-message-table,
+  .app-chats-table,
+  .app-grid-table,
+  .compose-info-show,
+  .file-info-table,
+  .change-body-wrapper,
+  .change-image-table,
+  .after-recording,
+  .app-trending-table{
+    width: 100%;
+    height: auto;
+  }
+
+  .empty-tab{
+    width: 40%;
+  }
+  .following-tab,
+  .followers-tab{
+    width: 15%;
+  }
+  .bio-icon-tab,
+  .search-tab,
+  .change-remove-tab,
+  .app-change-tab{
+    width: 10%;
+  }
+  .bio-tab{
+    width: 90%
+  }
+  .info-icon{
+    width: 5%;
+  }
+  .date-tab,
+  .icon-tab{
+    width: 10%;
+  }
+  .text-tab{
+    width: auto;
+  }
+  .app-chat-tab,
+  .app-chats-table{
+    padding: 2%;
+  }
+  .app-full-info-tab,
+  .app-user-info-nav-tab,
+  .app-header-tab,
+  .search-tab,
+  .app-change-tab{
+    padding:1.5%;
+  }
+  .app-follow-list,
+  .file-name-tab{
+    padding-left: 1%;
+  }
+  .message-chat-tab{
+    width: 76%;
+    height: auto;
+  }
+  .app-img-tab,
+  .list-follow-btn,
+  .img-message-tab,
+  .seen-chat-tab,
+  .rec-tab,
+  .media-tab,
+  .send-tab,
+  .special-nav-tab{
+    width: 12%;
+    height: 20px;
+  }
+  .header-tab{
+    width: 8%;
+    height: 20px;
+  }
+
+  .input-tab{
+    width: 65%;
+  }
+  .app-name-tab,
+  .list-follow-btn,
+  .file-name-tab{
+    width: 60%
+  }
+  .count-tr{
+    height: 40px;
+  }
+
+  .media-icons{
+    font-size: 15pt;
+  }
+  table{
+    background-color: transparent;
+  }
+  .app-message-bubble{
+    border : 0.05em solid lightgrey;
+    border-radius: 4px;
+    padding: 2%;
+    width: auto;
+    height: auto;
+  }
+  .app-message{
+    padding: 2%;
+    background-color: transparent;
+    width: auto;
+    max-width: 75%;
+  }
+  .app-left-message{
+
+  }
+  .app-right-message{
+    position: relative;
+    left: 24%;
+  }
+  .app-message-table{
+    width: 130px;
+    height: auto;
+    border: 0.04em solid #111;
+  }
+
+  .app-small-img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .app-audio-canvas{
+    height: auto;
+    width: 100%;
+  }
+
+  .search-bar-lg{
+    border: 0.05em solid rgba(211, 211, 211, .5);
+    border-radius: 3px;
+    width: 65%;
+  }
+  .app-search-icon-tab{
+    width: 10%;
+  }
+  .app-search-tab-input{
+    width: 90%;
+  }
+  input[type="search"]{
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    outline : 0;
+  }
+
+  .app-grid-media{
+    width: 100%;
+    height: 100px;
+  }
+  .app-grid-tab{
+    width: 40%;
+    height: 40%;
+  }
+  .upload-form{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    display: none;
+  }
+  .comment-progress{
+    display: none;
+    height: 4px;
+  }
+
+  .progress-bar{
+    background-color: #5cb85c;
+    width: 0%;
+    height: 20px;
+  }
+  .app-grey-text{
+    color: rgba(105,105,105, .7);
+    font-size: 09pt; 
+  }
+  .app-grey-text-sm{
+    color: rgba(105, 105, 105, .7);
+    font-size: 07pt;
+  }
+  .app-grey-text-lg{
+    color: rgb(105,105,105, .7);
+    font-size: 10.5pt; 
+  }
+  .app-text-link{
+    color: #5bc0de;
+    font-size: 8pt; 
+  }
+
+  .app-small-text{
+
+    color: #111;
+    font-size: 09pt;
+  }
+
+  .app-bold-text{
+    color: #111;
+    font-size: 09pt;
+    font-weight: 600;
+  }
+
+  .app-mid-text{
+    color: #111;
+    font-size: 11pt;
+    font-weight: 550;
+  }
+
+  .app-max-text{
+    color: #111;
+    font-size: 14pt;
+    font-weight: 450;
+  }
+  .text-space-sm{
+    margin-left: 3px;
+  }
+  
+  .app-user-follow-tab{
+    width: auto;
+    padding: 1%;
+  }
+  .app-modal-view{
+    padding-bottom: 2%;
+  }
+  .space-small{
+    width: 100%;
+    height: 5px;
+  }
+  .space-medium{
+    width: 100%;
+    height: 18px;
+  }
+  .space-large{
+    width: 100%;
+    height: 30px;
+  }
+  .space-mega{
+    width: 100%;
+    height: 100px;
+  }
+  .app-post-text-body{
+    width: 100%;
+    height: auto;
+    padding: 0.5px;
+    padding-left: 10px;
+  }
+
+  .btn-default{
+    border: 0.05em solid #5bc0de;
+    font-weight: 600;
+    color: #5bc0de;
+  }
+
+  .btn-success{
+    border: 0.05em solid #5bc0de;
+    background-color: #5bc0de;
+    color: #FFF;
+    font-weight: 600;
+  }
+
+  .btn-info{
+    background-color: #5cb85c;
+    font-weight: 600;
+    border-color: #5cb85c;
+  }
+
+  .btn-danger{
+    font-weight: 600;
+  }
+
+  .app-tag{
+    color: red;
+    font-weight: 570;
+  }
+
+  .app-hash{
+    color: #50A8B9;
+    font-weight: 570;
+  }
+
+  .list-follow-bio,
+  .list-follow-btn,
+  .notif-text-tab,
+  .last-tab,
+  .message-chat-tab,
+  .seen-chat-tab{
+    border-bottom: 0.08em solid lightgrey;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+  .app-name{
+    padding-left: 2%;
+    color: #111;
+    font-family: "cursive", "sans-serif", "serif", "fantasy", "monospace";
+  }
+
+  span{
+    font-family: "Helvetica Neue", "Helvetica", "sans-serif", "Arial";
+  }
+
+  .bio-info-tab{
+    padding-bottom: 3%;
+  }
+  .user-image-btn{
+    position: relative;
+    top: -40px;
+  }
+  .change-image-body{
+    display: none;
+  }
+  .media-info-body{
+    position: relative;
+    top: -22px;
+    left: 8px;
+    width: 30px;
+    background-color: transparent;
+    z-index: 70 !important;
+    height: 0px;
+    color: #fff;
+  }
+  .info-views{
+    background-color: rgba(0, 0, 0, .3);
+    width: 26px;
+    height: auto;
+    border-radius: 2px;
+    font-size: 07pt;
+  }
+  .compose-progress-bar{
+    display: none;
+    height: 0px;
+  }
+  .app-recording-timer{
+    padding-right: 5%;
+  }
+  .app-media-header{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 3%;
+  }
+  .app-trending-wrapper{
+    border-bottom: 0.05em solid lightgrey;
+  }
+
+  .media-header{
+    padding-top: .5%;
+    padding-right: 2%;
+    padding-bottom: .5%;
+    padding-left: 2%;
+
+  }
+  .comment-media{
+    padding-left: 3.5%;
+    padding-right: 2%;
+  }
+
+  /* End Of Universal Styles */
+
+
+  /*
+
+   NEW STYLES ON THE IMPROVED VERSION!!
+
+  */
+
+  .app-user-cardbody{
+    width: 94%;
+    height: 300px;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .app-usercard-cover{
+    height: 160px;
+    width: 100%;
+  }
+
+  .user-media-wrapper{
+
+    width: 95%;
+    height: auto;
+    /*box-shadow: .1px .1px .1px .1px #A2A2A2;*/
+    background-color: transparent;
+    position: relative;
+    left: 2%;
+    top : 60%;
+    border-radius: 3px;
+
+  }
+
+  .follow-button-body{
+    padding-bottom: 1px;
+  }
+
+  .user-media-stats-wrapper{
+    width: 95%;
+    height: auto;
+    border : 0.06em solid lightgrey;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+    left: 2%;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
+  .video-item{
+    padding-left: 22%;
+  }
+
+  .app-react-body{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .app-header{
+
+    border-bottom: 0.03em solid lightgrey;
+    z-index: 1050 !important;
+    padding: 2%;
+    
+  }
+
+  .app-audio-body{
+    
+  }
+
+  .app-comment-header{
+
+    width: 100%;
+    border-bottom: 0.03em solid lightgrey;
+    padding: 2%;
+    background-color: transparent;
+    z-index: 999 !important;
+
+  }
+  .app-post-text-wrapper{
+
+    padding : 1%;
+    padding-left: 3%;
+
+  }
+
+  .icon-text{
+    position: relative;
+    top: -5px;
+  }
+  .comments-view-header{
+    border-bottom : 0.03em solid lightgrey;
+  }
+  .comment-like{
+    position: relative;
+    bottom: 0;
+  }
+  .comments-viewport{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .app-attach{
+    position: relative;
+    left: 62.5%;
+  }
+  .app-message-dropdown{
+    padding: 1%;
+  }
+  .profile-user-info{
+    padding: 2%;
+    background-color: transparent;
+  }
+  .action-profile-nav{
+    padding: 1%;
+    background-color: transparent;
+    border-radius: 1px;
+    width: 100%;
+
+  }
+  .nav-block-content{
+    width: 100%;
+    background-color: transparent;
+    padding: 2%;
+  }
+  /*.main-wrapper,
+  img{
+    border-radius: 5px;
+  }*/
+
+
+  /*.app-btn{
+    width: 8%;
+    height: 5%;
+    padding: 2%;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #111;
+    border: 0.03em solid lightgrey;
+  }*/

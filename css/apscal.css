@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap :3rem;
+    padding: 0 2rem;
+}
+.container-contents{
+  /*display: flex;
+	justify-content: flex-start;*/
+	align-items: center;
+	text-align: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+  font-family: 'poppins', sans-serif;
+}
+.sigout{
+  float: right;
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #5cb85c, #2880ff, #5cb85c); /*#00419f*/
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.sigout:hover{
+	background-position: right;
+}
+.subject,
+select{
+    position: relative;
+    display: grid;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    width: 85%;
+    border-bottom: 2px solid #d9d9d9;
+}
+.mark
+select{
+    position: relative;
+    display: grid;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #d9d9d9;
+}
+.calcAps{
+  float: left;
+	display: block;
+	width: 80%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #5cb85c, #2880ff, #5cb85c);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.calcAps:hover{
+	background-position: right;
+}
